@@ -1,0 +1,151 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Estilo do Cabeçalho */
+header {
+    margin-top: 0px;
+    padding: 2em 0em;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 10em;
+    text-align: center;
+}
+
+p#ref {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font: normal 1em Roboto;
+}
+
+a.link_ref {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+a.link_ref:hover {
+    color: chocolate;
+    text-decoration: underline;
+}
+
+/* Estilo das boas-vindas */
+section#welcome {
+    padding: 1em 0em;
+    margin: 0px;
+    background-color: chocolate;
+    color: white;
+    font: normal 1.5em Roboto;
+    text-align: center;
+
+}
+
+/* Estilo do conteúdo */
+section {
+    margin: 0px;
+    padding: 5em 2em;
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5em;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+div.content {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.452);
+    padding: 0em 1em;
+    margin: 2em 0em;
+    color: white;
+}
+
+section#first {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+section#parx1 {
+    background-image: url('imagens/background001.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section#parx2 {
+    background-image: url('imagens/background002.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: black;
+    padding: 1em 0em;
+    margin: 0px;
+}
+
+footer > p {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font: normal 1em Roboto;
+    text-align: center;
+}
+
+footer > p > a {
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+
+footer > p > a:hover {
+    color: chocolate;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1036px) {
+    h1 {
+        font-size: 7em;
+    }
+
+    p {
+        font-size: 4em;
+    }
+}
+
+@media only screen and (max-width: 756px) {
+    h1 {
+        font-size: 5em;
+    }
+
+    p {
+        font-size: 4em;
+    }
+}
+
+@media only screen and (max-width: 556px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    p {
+        font-size: 3em;
+    }
+}
